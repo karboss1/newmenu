@@ -1,0 +1,121 @@
+/*color de fondo en este caso imagen*/
+body {
+   
+    background-image: url("../imagenes/fondocal1.jpg");
+    
+}
+div#gen {
+    
+    padding:30%;
+    padding-top: 10%;
+    background-color: rgba(5, 119, 72, 0.466);
+    
+
+}
+
+.dis{
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    background-color: #002346;
+    font-size: 250%;
+
+}
+/*estilos a los botones de entrada numerica*/
+input{
+    width: 150px;
+    height: 50px;
+    font-size: 50px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #000;
+    color: #fff;
+    border-style: none;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-right: 150px;
+    margin-top: 0px;
+
+}
+h3{
+    text-align: center;
+    font-size: 20px;
+    margin-right: 150px;
+    margin-top: 20px;
+
+}
+/*estilos a los botones de los operadores */
+.plus{
+    background-color: chartreuse;
+}
+.minus{
+    background-color: red;
+}
+.times{
+    background-color: yellow;
+}
+.divide{
+    background-color: peru;
+}
+.clear{
+    background-color: red;
+}
+.equal{
+    background-color: green;
+}
+.logo {
+    background-image: url("/imagenes/logo.png");
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.center {
+    background-color: rgba(rgba(38, 0, 255, 0.473), green, blue, alpha);
+}
+/*seccion de estilos de la barra de navegacion*/
+.navega {
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    background-color: rgba(0, 0, 128, 0.466);
+    margin: 0% 10%;
+
+}
+a{
+    color: white;
+    font-size: 20px;
+}
+
+#menu2 {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  
+}
+
+#menu2 a {
+    width: 300px;
+    text-decoration: none;
+    text-align: center;
+    padding: 3px 5px;
+    border-right: 2px solid black;
+    display: block;
+   
+}
+
+#menu2 li {
+    float: left;
+}
+#logo{
+    
+    margin-top: 8%;
+    margin-right: 20%;
+    margin-left: 40%;
+
+}
+

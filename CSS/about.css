@@ -1,0 +1,119 @@
+/*color de fondo en este caso imagen*/
+body{
+background-image: url(../imagenes/aboutmefondo1.jpg);
+}
+/*stilos de la seccion prrincipal*/
+#contenedor{
+    width: 1400px;
+    height: 1400px;
+    background-color: rgba(128, 128, 128, 0.5);
+    margin: 0.5em auto;
+}
+/*estilos para el encabezado*/
+#header{
+    height: 10%;
+    background-color: rgba(0, 255, 255, 0.342);
+    border-radius: 2em;
+    margin: 1em;
+}
+/*estilos para el fondo */
+#contenido{
+    height: 60%;
+    background-color: gray;
+    border-radius: 2em;
+    margin: 1em;
+}
+/*estilos al contenedor de la foto de perfil*/
+#photo{
+    padding-left: 10%;
+    margin: 3em;
+}
+/*estilos al contenedor del cuadro de la informacion*/
+#info{
+    border-color: black;
+    margin-right:20%;
+    float: right;
+    font-size: 35px;
+}
+/**/
+#informacion{
+    height: 90%;
+    width: 50%;
+    float: left;
+
+}
+/*estilos para h1*/
+h1{
+    padding-top: 2%;
+    font-size: 350%;
+    text-align: center;
+    color: white;
+    
+    
+}
+/*estilos para h2*/
+h2{
+    background-color: rgba(128, 128, 128, 0.39);
+    color: white;
+    text-align: center;
+    font-size: 250%;
+}
+/**/
+p{
+    color: white;
+}
+/*seccion de estilos de la barra de navegacion*/
+.logo {
+    background-image: url("/imagenes/logo.png");
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+}
+/**/
+
+.center {
+    background-color: rgba(rgba(38, 0, 255, 0.473), green, blue, alpha);
+}
+/**/
+
+.navega {
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    background-color: rgba(0, 0, 128, 0.466);
+    margin: 0% 10%;
+
+}
+/**/
+a{
+    color: white;
+    font-size: 20px;
+}
+/**/
+#menu2 {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  
+}
+/**/
+#menu2 a {
+    width: 300px;
+    text-decoration: none;
+    text-align: center;
+    padding: 3px 5px;
+    border-right: 2px solid black;
+    display: block;
+   
+}
+
+#menu2 li {
+    float: left;
+}
+#logo{
+    
+    margin-top: 8%;
+    margin-right: 20%;
+    margin-left: 40%;
+
+}
